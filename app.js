@@ -41,11 +41,11 @@ app.post("/",function(req,res)
 		]
 	}
 	const jsondata=JSON.stringify(data);
-	const url='https://us18.api.mailchimp.com/3.0/lists/52d7b266d6';
+	const url='https://us18.api.mailchimp.com/3.0/lists/52d7b266d6N';
 	const options=
 	{
 		method:"POST",
-		auth:"muskan:04a1cfced1518dc5c86479f4178188f4-us18",
+		auth:"muskan:04a1cfced1518dc5c86479f4178188f4-us18N",
 	}
 	
 	const request=https.request(url,options,function(response)
